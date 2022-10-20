@@ -16,7 +16,6 @@ class Overload{
 
 public class exp1 {
     public static void main(String args[]){
-        System.out.println("Hi");
         Overload obj = new Overload();
         obj.add();
         obj.add(10,20);
