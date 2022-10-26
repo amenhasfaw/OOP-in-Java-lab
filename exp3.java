@@ -1,3 +1,32 @@
+//Basic Structure
+/*
+
+Class Outer{
+    // Class body
+
+    Class Inner{
+        //Inner Class body
+    }
+    
+    //more outer Class body
+}
+
+- Accessing Inner Class:
+  
+
+  Outer obj = new Outer();
+  Inner obj2 = obj.new Inner();
+
+        OR
+
+        
+  new Outer().new Inner()
+
+
+
+*/
+
+
 // INNER CLASSES
 class Outer{
     int outData = 10;
