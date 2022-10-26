@@ -1,3 +1,18 @@
+//Basic Structure
+/*
+
+Class A{
+    void method(){
+        //method body
+    }
+
+    void method(x,y){
+        //method body
+    }
+}
+
+*/
+
 // METHOD OVERLOADING
 
 class Overload{
@@ -21,3 +36,4 @@ public class exp1 {
         obj.add(10,20);
     }
 }
+
