@@ -15,11 +15,11 @@ Class Outer{
   
 
   Outer obj = new Outer();
-  Inner obj2 = obj.new Inner();
+  Outer.Inner obj2 = obj.new Inner();
 
         OR
 
-        
+
   new Outer().new Inner()
 
 
