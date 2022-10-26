@@ -1,3 +1,19 @@
+//Basic Structure
+/*
+
+Class A{
+    A(){
+        //Constructor body
+    }
+
+    A(x,y){
+        //Constructor body
+    }
+}
+
+*/
+
+
 // CONSTRUCTOR OVERLOADING
 
 class Const{
