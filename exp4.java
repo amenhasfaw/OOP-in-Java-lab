@@ -5,12 +5,14 @@ abstract class Shape
 {
     final double PI=3.14; //constant
     String shapeName;
-abstract void area(); //abstract method
+    abstract void area(); //abstract method
     public String toString()    //tostring method to return calling classname
     {
         return this.getClass().getName();
     }
 }
+
+
 class Sphere extends Shape
 {
     double rad;
@@ -23,6 +25,7 @@ class Sphere extends Shape
         System.out.println("Area = "+(4*PI*rad*rad));  //area of sphere formula
     }
 }
+
 
 class Rectangle extends Shape
 {
@@ -38,9 +41,11 @@ class Rectangle extends Shape
         System.out.println("Area = "+(len*width));
     }
 }
+
+
 class Triangle extends Shape
 {
-    double     base, height;
+    double base, height;
 
     Triangle(double b,double h)
     {
