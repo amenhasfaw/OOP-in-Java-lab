@@ -1,6 +1,5 @@
 //Basic Structure
 /*
-
 Class A{
     void method(){
         //method body
