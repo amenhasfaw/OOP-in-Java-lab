@@ -62,23 +62,24 @@ class Triangle extends Shape
 public class exp4 {
     public static void main(String args[])
     {
-        Scanner s=new Scanner(System.in);
-        System.out.println("Enter the radius of a circle");
-        double r=s.nextInt(); //taking radius input
-        Sphere sp=new Sphere(r);   //sphere object creation
-        System.out.println(sp.toString());     //respective class object calls tostring()
-        sp.area();   //calling respective class area method
-        System.out.println("Enter the len and wid: ");
-        double l=s.nextInt();
-        double w=s.nextInt();
-        Rectangle rc=new Rectangle(l,w);
-        System.out.println(rc.toString());
-        rc.area();
-        System.out.println("Enter the base and height: ");
-        double b=s.nextInt();
-        double h=s.nextInt();
-        Triangle ta=new Triangle(b,h);
-        System.out.println(ta.toString());
-        ta.area();
+        try (Scanner s = new Scanner(System.in)) {
+            System.out.println("Enter the radius of a circle");
+            double r=s.nextInt(); //taking radius input
+            Sphere sp=new Sphere(r);   //sphere object creation
+            System.out.println(sp.toString());     //respective class object calls tostring()
+            sp.area();   //calling respective class area method
+            System.out.println("Enter the len and wid: ");
+            double l=s.nextInt();
+            double w=s.nextInt();
+            Rectangle rc=new Rectangle(l,w);
+            System.out.println(rc.toString());
+            rc.area();
+            System.out.println("Enter the base and height: ");
+            double b=s.nextInt();
+            double h=s.nextInt();
+            Triangle ta=new Triangle(b,h);
+            System.out.println(ta.toString());
+            ta.area();
+        }
     }
 }

@@ -47,19 +47,20 @@ class Cases
 public class exp5 {
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
-        Cases c1=new Cases();
-        c1.demo1();
-        System.out.println("\nCase2");
-        System.out.println("Enter string to  reverse: ");
-        String s1=sc.nextLine();
-        String res1=c1.demo2(s1);
-        System.out.println("Reversed string is "+ res1.toUpperCase());
-        System.out.println("\nCase3");
-        System.out.println("Enter string to append: ");
-        String s2=sc.nextLine();
-        String res2=c1.demo3(res1,s2);
-        System.out.println("Concatenated string is "+res2);
-        c1.demo4(res2);
+        try (Scanner sc = new Scanner(System.in)) {
+            Cases c1=new Cases();
+            c1.demo1();
+            System.out.println("\nCase2");
+            System.out.println("Enter string to  reverse: ");
+            String s1=sc.nextLine();
+            String res1=c1.demo2(s1);
+            System.out.println("Reversed string is "+ res1.toUpperCase());
+            System.out.println("\nCase3");
+            System.out.println("Enter string to append: ");
+            String s2=sc.nextLine();
+            String res2=c1.demo3(res1,s2);
+            System.out.println("Concatenated string is "+res2);
+            c1.demo4(res2);
+        }
     }
 }
