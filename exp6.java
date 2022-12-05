@@ -50,6 +50,7 @@ public class exp6 {
         Account a1 = new Account(); // creating account1
         Account a2 = new Account(); // creating account2
         double dep, wit;
+
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Min bal of account 1: ");
             System.out.println(a1.balance()); // account1 minimum balance
