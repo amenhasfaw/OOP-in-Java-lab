@@ -104,7 +104,7 @@ class Stackinterface {
                 case 1:
                     operations obj = new Fstack();
                     while (true) {
-                        System.out.println("\n1.PUSH\n2.POP\n");
+                        System.out.println("\n1.PUSH\n2.POP");
                         System.out.println("3.DISPLAY\n4.MAIN_MENU");
                         System.out.print("Enter Your Choice:\t");
                         ch = Integer.parseInt(br.readLine());
@@ -133,7 +133,7 @@ class Stackinterface {
                     int size = Integer.parseInt(br.readLine());
                     operations obj1 = new Dstack(size);
                     while (true) {
-                        System.out.println("\n1.PUSH\n2.POP\n");
+                        System.out.println("\n1.PUSH\n2.POP");
                         System.out.println("\n3.DISPLAY\n4.MAIN_MENU");
                         System.out.print("Enter Your Choice:\t");
                         ch = Integer.parseInt(br.readLine());
