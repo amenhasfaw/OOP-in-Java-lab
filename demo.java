@@ -279,7 +279,6 @@ class LinearQueue{
     void display(){
         if(front > -1){
             System.out.println("Elements are:");
-           // int k = front;
             for(int i=front;i<=rear;i++){
                 System.out.println(q[i]);
             }
