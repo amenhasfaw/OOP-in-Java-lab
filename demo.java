@@ -217,6 +217,34 @@
 //     }
 // }
 
+// SORTING
+
+// class demo{
+//     public static void main(String args[]){
+        
+//         int arr[] = {5,4,1,3,2};
+//         int length = arr.length;
+
+//         for(int i = 0; i < length;i++){
+//             for(int j = i+1;j<length;j++){
+//                 int temp;
+
+//                 if(arr[j] < arr[i]){
+//                     temp = arr[j];
+//                     arr[j] = arr[i];
+//                     arr[i] = temp;
+
+//                 }
+
+//             }
+
+//          System.out.println("Sorted element index of " + i + " : " + arr[i]);
+//         }
+//     }
+// }
+
+
+
 
 
 
