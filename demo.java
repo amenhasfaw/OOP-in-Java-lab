@@ -101,6 +101,49 @@
 //     }
 // }
 
+//ABSTRACT CLASS
+
+// abstract class Shape{
+//     final double PI = 3.14;
+//     abstract void area();
+// }
+
+// class Sphere extends Shape{
+//     double rad;
+
+//     Sphere(double r){
+//         rad = r;
+//     }
+
+//     void area(){
+//         System.out.println("Area of Sphere: " + (4*PI*rad*rad));
+//     }
+// }
+
+// class Rectangle extends Shape{
+
+//     double len,wid;
+
+//     Rectangle(double x, double y){
+//         len = x;
+//         wid =y;
+//     }
+
+//     void area(){
+//         System.out.println("Area of Rectangle: " + (len*wid));
+//     }
+// }
+
+// class demo{
+//     public static void main(String args[]){
+//         Sphere s1 = new Sphere(2);
+//         s1.area();
+
+//         Rectangle r1 = new Rectangle(5, 5);
+//         r1.area();
+//     }
+// }
+
 
 
 
