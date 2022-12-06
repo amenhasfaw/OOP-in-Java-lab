@@ -74,3 +74,35 @@
 //     }
 // }
 
+//INNER CLASSES
+
+// class Outer{
+//     int x = 5;
+//     class Inner{
+//         int y = 10;
+//         int z = x+y;
+//         void display(){
+//             System.out.println("Inner Class:  " + z);
+//         }
+//     }
+
+//     void display(){
+//         System.out.println("Outter Class:  " + x);
+//     }
+// }
+
+// class demo{
+//     public static void main(String args[]){
+//         Outer m1 = new Outer();
+//         m1.display();
+
+//         Outer.Inner m2 = new Outer().new Inner();
+//         m2.display();
+//     }
+// }
+
+
+
+
+
+
