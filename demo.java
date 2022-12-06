@@ -193,6 +193,29 @@
 //     }
 // }
 
+// Fibonnaci
+
+// public class demo {
+
+//     public static int fib(int x) {
+//         if (x <= 1) {
+//             return x;
+//         } else {
+//             return fib(x - 1) + fib(x - 2);
+//         }
+//     }
+
+//     public static void main(String args[]) {
+//         int num = fib(5);
+//         System.out.println(num);
+
+//         int maxNumber = 10;
+//         System.out.print("Fibonacci Series of " + maxNumber + " numbers: ");
+//         for (int i = 0; i < maxNumber; i++) {
+//             System.out.print(fib(i) + " ");
+//         }
+//     }
+// }
 
 
 
