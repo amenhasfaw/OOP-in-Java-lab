@@ -26,8 +26,24 @@
 //     }
 // }
 
+//CONSTRUCTOR OVERLOAD
 
+// class Coverload{
+//     Coverload(){
+//         int a = 5;
+//         System.out.println("First constructor: a = " + a );
+//     }
 
+//     Coverload(int a){
+//         System.out.println("Second constructor: a = "+ a);
+//     }
+// }
 
+// class demo{
+//     public static void main(String args[]){
+//         Coverload m1 = new Coverload();
+//         Coverload m2 = new Coverload(10);
 
+//     }
+// }
 
