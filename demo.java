@@ -47,3 +47,30 @@
 //     }
 // }
 
+// PALINDROME CHECKER
+
+// class Palindrome {
+//     void checkPal(String s) {
+//         int temp = s.length() - 1;
+//         String reverse = "";
+//         while (temp >= 0)
+//             reverse = reverse + s.charAt(temp--);
+
+//         System.out.println(reverse);
+
+//         if(reverse.equals(s)){
+//             System.out.println("Palindrome");
+//         }else{
+//             System.out.println("Not Palindrome");
+//         }
+//     }
+// }
+
+// class demo{
+//     public static void main(String args[]){
+//         Palindrome m1 = new Palindrome();
+
+//         m1.checkPal("ama");
+//     }
+// }
+
