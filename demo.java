@@ -144,6 +144,55 @@
 //     }
 // }
 
+//EXCEPTION HANDLING
+
+// class LessBalanceException extends Exception{
+//     LessBalanceException(String s){
+//         super(s);
+//     }
+// }
+
+// class Account{
+
+//     double minBal;
+
+//     Account(){
+//         minBal=1000;
+//         System.out.println("Current Balance: " + minBal);
+//     }
+
+//     void deposit(double amt){
+//         minBal += amt;
+//         System.out.println("Current Balance: " + minBal);
+//     }
+
+//     void withdraw(double amt){
+
+//         double temp = minBal - amt;
+
+//         try{
+//             if(temp < 1000){
+//                 throw new LessBalanceException("Insufficient Funds");
+//             }else{
+//                 minBal -= amt;
+//                 System.out.println("Current Balance: " + minBal);
+//             }
+//         }catch(Exception e){
+//             System.out.println(e.getMessage());
+//         }
+//     }
+// }
+
+// class demo{
+//     public static void main(String args[]){
+//         Account a1 = new Account();
+//         a1.deposit(1000);
+//         a1.deposit(1000);
+//         a1.withdraw(2500);
+//         a1.withdraw(1500);
+//     }
+// }
+
 
 
 
