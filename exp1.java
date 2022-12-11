@@ -20,10 +20,11 @@ class Overload{
         System.out.println("NO or Default argument add method, sum = " + (a+b));
     }
 
-    void add(int x, int y){
+   void add(int x, int y){
         a = x;
         b = y;
         System.out.println("Parameterized argument add method, Sum: " + (a+b));
+        
     }
 }
 
