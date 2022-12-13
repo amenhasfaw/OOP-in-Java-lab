@@ -221,7 +221,7 @@
 
 // class demo{
 //     public static void main(String args[]){
-        
+
 //         int arr[] = {5,4,1,3,2};
 //         int length = arr.length;
 
@@ -243,73 +243,84 @@
 //     }
 // }
 
-
 //LINEAR QUEUE
 
-class LinearQueue{
-    int front,rear;
-    int size = 5;
-    int q[] = new int[5];
+// class LinearQueue{
+//     int front,rear;
+//     int size = 5;
+//     int q[] = new int[5];
 
-    LinearQueue(){
-        front=0;
-        rear=-1;
-    }
+//     LinearQueue(){
+//         front=0;
+//         rear=-1;
+//     }
 
-    void enqueue(int ele){
-        if(rear == -1 || rear < size -1){
-            q[++rear] = ele;
-            System.out.println(q[rear] + " Added on position " + rear);
-        }else{
-            System.out.println("Queue is Full");
-        }
-    }
+//     void enqueue(int ele){
+//         if(rear == -1 || rear < size -1){
+//             q[++rear] = ele;
+//             System.out.println(q[rear] + " Added on position " + rear);
+//         }else{
+//             System.out.println("Queue is Full");
+//         }
+//     }
 
-    void dequeue(){
-        if(front < size){
-            System.out.println("The deleted element is: " + q[front++]);
-        }else{
-            if(front == size){
-                front = -1;
-                System.out.println("Queue is Empty");
-            }
-        }
-    }
+//     void dequeue(){
+//         if(front < size){
+//             System.out.println("The deleted element is: " + q[front++]);
+//         }else{
+//             if(front == size){
+//                 front = -1;
+//                 System.out.println("Queue is Empty");
+//             }
+//         }
+//     }
 
-    void display(){
-        if(front > -1){
-            System.out.println("Elements are:");
-            for(int i=front;i<=rear;i++){
-                System.out.println(q[i]);
-            }
-        }
-    }
-}
+//     void display(){
+//         if(front > -1){
+//             System.out.println("Elements are:");
+//             for(int i=front;i<=rear;i++){
+//                 System.out.println(q[i]);
+//             }
+//         }
+//     }
+// }
 
+// public class demo {
+//     public static void main(String args[]){
+//         LinearQueue q = new LinearQueue();
+//         q.enqueue(10);
+//         q.enqueue(20);
+//         q.enqueue(30);
+//         q.enqueue(40);
+//         q.enqueue(50);
+//         q.display();
+//         System.out.println("When tried to put sixth element to full queue");
+//         q.enqueue(60);
+//         q.dequeue();
+//         q.dequeue();
+//         q.dequeue();
+//         q.display();
+//         q.dequeue();
+//         q.dequeue();
+//         System.out.println("When tried to remove sixth element from empty queue");
+//         q.dequeue();
+//         q.display();
+//     }
+// }
+
+//java GUI Swing
+
+import javax.swing.*;
 
 public class demo {
-    public static void main(String args[]){
-        LinearQueue q = new LinearQueue();
-        q.enqueue(10);
-        q.enqueue(20);
-        q.enqueue(30);
-        q.enqueue(40);
-        q.enqueue(50);
-        q.display();
-        System.out.println("When tried to put sixth element to full queue");
-        q.enqueue(60);
-        q.dequeue();
-        q.dequeue();
-        q.dequeue();
-        q.display();
-        q.dequeue();
-        q.dequeue();
-        System.out.println("When tried to remove sixth element from empty queue");
-        q.dequeue();
-        q.display();
+    public static void main(String[] args) {
+        JFrame f = new JFrame();// creating instance of JFrame
+
+        JButton b = new JButton("click");// creating instance of JButton
+        b.setBounds(130, 100, 100, 40);// x axis, y axis, width, height
+        f.add(b);// adding button in JFrame
+        f.setSize(400, 500);// 400 width and 500 height
+        f.setLayout(null);// using no layout managers
+        f.setVisible(true);// making the frame visible
     }
 }
-
-
-
-
